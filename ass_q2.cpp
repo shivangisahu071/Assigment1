@@ -29,7 +29,7 @@ int main() {
     
     if (!isTriangle) {
         cout << "A triangle cannot be formed with these sides." << endl;
-        
+        return 1;
     }
     
     // Determine the type of triangle
